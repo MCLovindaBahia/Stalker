@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #95bdd8;
+    --color2: #00000063;
+    --color3: #312e2ec5;
+    --color4: #000000;
+    --color5: #000000;
+    --color6: #bdc3c7;
+}
+
+.bag-primary {
+    background-color: var(--color1);
+}
+
+.bag-secondary {
+    background-color: var(--color2);
+}
+
+.bag-tertiary {
+    background-color: var(--color3);
+}
+
+.bag-fourth {
+    background-color: var(--color6);
+}
+
+.cor-dark {
+    background-color: var(--color-dark);
+}
+
+.cor-light {
+    background-color: var(--color-light);
+}
+
+.txt-cor {
+    color: var(--color4);
+    font-weight: 600;
+}
+
+.h1-cor {
+    color: black;
+}
+
+.txt-coraside {
+    color: var(--color1);
+}
+
+.amatic-sc-regular {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.h1{
+    font-family: Amatic SC;
+    font-size: 80px;
+}
+
+.video-wallpaper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    transform: translate(-50%, -50%); /* Centraliza o vídeo */
+}
+
+body, html {
+    scroll-behavior: smooth;
+    height: 100%;
+  }
+
+.box-shadow {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: var(--color5);
+}
+
+a:hover {
+    color: var(--color5);
+}
+
+a:visited {
+    color: var(--color5);
+}
+
+a:active {
+    color: var(--color5);
+}
+
+.img-destaque {
+    float: none;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+
+@media(min-width: 990px) {
+
+    .img-destaque {
+        float: left;
+        width: 400px;
+    }
+
+    .aside-destaque {
+        padding: 1rem;
+    }
+
+   
+
+    .iframes {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 5px;
+    }
+
+    .iframe-anomaly{
+        display: grid;
+        grid-template-columns: 6fr 6fr;      
+     }
+
+}
+
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.aside-destaque {
+    display: block;
+    padding: 1rem;
+    background-color: var(--color2);
+}
+
+.card {
+    background-color: var(--color2);
+    color: var(--color6);
+    box-shadow: 3px 3px 4px #57636b98;
+}
+
+.iframe {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.barra {
+    width: 100%;
+    background-color: var(--color6);
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
+.iframe-border{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+
+ 
